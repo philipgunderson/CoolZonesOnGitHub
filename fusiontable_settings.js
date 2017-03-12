@@ -132,7 +132,7 @@ $.extend(MapsLib, {
             { label: "ZIP", type: "text", column: "ZIP"},
             { label: "City", type: "text", column: "City"},
             { label: "Area", type: "dropdown", entries: [
-                ["Central", "'Area' = 'Central'", true],
+                ["Central", "'Area' = 'Central'"],
                 ["East", "'Area' = 'East'"],
                 ["North Coastal", "'Area' = 'N Coastal'"],
                 ["North Inland", "'Area' = 'N Inland'"],
