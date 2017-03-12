@@ -131,13 +131,13 @@ $.extend(MapsLib, {
             { label: "Name", type: "text", column: "Name"},      
             { label: "ZIP", type: "text", column: "ZIP"},
             { label: "City", type: "text", column: "City"},
-            { label: "Area", type: "dropdown", entries: [
-                ["Central", "'Area' = 'Central'"],
-                ["East", "'Area' = 'East'"],
-                ["North Coastal", "'Area' = 'N Coastal'"],
-                ["North Inland", "'Area' = 'N Inland'"],
-                ["South", "'Area' = 'South'"]
-            ] },  
+//            { label: "Area", type: "dropdown", entries: [
+//                ["Central", "'Area' = 'Central', true"],
+//                ["East", "'Area' = 'East'"],
+//                ["North Coastal", "'Area' = 'N Coastal'"],
+//                ["North Inland", "'Area' = 'N Inland'"],
+//                ["South", "'Area' = 'South'"]
+//            ] },  
         ],
     },
 
